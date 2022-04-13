@@ -1,0 +1,50 @@
+#container{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+#container>div{
+    border:1px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: blanchedalmond;
+}
+#container>div>h1{
+    font-size: 60px;
+}
+#winner{
+    height: auto;
+    width: 400px;
+    margin: auto;
+    margin-bottom:50px ;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: bisque;
+}
+#winner>h1{
+    font-size: 40px;
+}
+button{
+    height: 50px;
+    width: 150px;
+}
+button:hover{
+    cursor: pointer;
+}
+#roll{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: bisque;
+}
+
+body{
+    background-color: azure;
+}
